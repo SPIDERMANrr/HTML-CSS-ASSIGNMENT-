@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+       
+        input[type="text"] {
+            background-color: #ff0000;
+            border: 1px solid #5b2e2e;
+            padding: 10px;
+            margin: 5px;
+        }
+
+        input[type="email"] {
+            background-color: #240d5a8a; 
+            border: 1px solid #ff9999;
+            padding: 10px;
+            margin: 5px;
+        }
+
+        input[type="password"] {
+            background-color: #7e004794; 
+            border: 1px solid #9999ff;
+            padding: 10px;
+            margin: 5px;
+        }
+
+        
+        .form-container {
+            width: 300px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Registration Form</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br>
+
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</body>
+</html>
